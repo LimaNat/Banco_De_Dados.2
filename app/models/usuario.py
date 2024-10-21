@@ -5,7 +5,7 @@ from config.connection import db
 Base = declarative_base()
 
 class Usuario(Base):
-    __tablename__ = "usuarios
+    __tablename__ = "usuarios"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     nome = Column(String(150))
